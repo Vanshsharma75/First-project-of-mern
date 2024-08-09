@@ -1,0 +1,141 @@
+body {
+    background-color: #E62E62;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 3px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.logo img {
+    margin-left: 0px;
+    width: 50px;
+    height: 30px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 8px;
+    border: 2.5px solid #E62E62;
+    border-radius: 30px; 
+    color: #E62E62;
+}
+
+.search-icon {
+    color: #E62E62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.message-icon{
+    cursor: pointer;
+    margin-right: -10px;
+    margin-left: 5px;
+}
+.notification-icon,
+.profile-photo,
+.logout-button {
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.profile-photo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 14px;
+    color: black;
+    font-family: 'Times New Roman', serif;
+    margin-right: 10px;
+}
+
+.logout-button {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 6px 9px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.nav-button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #E62E62;
+}
+
+.image-container img {
+    display: flex;
+    width: 350px;   
+    height: 300px;  
+    background-color: white;
+    flex-direction: row ;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container:hover {
+    background-color: #E62E62;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.down {
+    display: flex;
+}
